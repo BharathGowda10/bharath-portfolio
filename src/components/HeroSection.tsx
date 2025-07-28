@@ -46,7 +46,7 @@ const IntroSection: React.FC = () => (
         display: "flex",
         flexDirection: { xs: "column", md: "row" },
         alignItems: "center",
-        gap: 8,
+        gap: { xs: 4, md: 8 },
         backgroundColor: "#ffffff", // clean white card
         color: "#1e293b", // Slate-800 text
       }}
@@ -57,7 +57,6 @@ const IntroSection: React.FC = () => (
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          // gap: 1,
           textAlign: "center",
           minWidth: { md: 300 },
         }}
@@ -90,7 +89,7 @@ const IntroSection: React.FC = () => (
             <FaGithub />
           </IconButton>
           <IconButton
-            href="https://linkedin.com/in/yourprofile"
+            href="https://www.linkedin.com/in/bharath-gowda-0055852aa/"
             target="_blank"
             rel="noopener"
             sx={{ color: "#4f46e5" }}
@@ -115,6 +114,7 @@ const IntroSection: React.FC = () => (
             mb: 3,
             lineHeight: 1.75,
             color: "#334155", // Slate-700
+            textAlign: { xs: "center", md: "left" },
           }}
         >
           I’m a passionate frontend developer with 3+ years of experience
