@@ -4,8 +4,23 @@ import chatapp from "../assets/chatapp.png";
 import mapapp from "../assets/mapapp.png";
 import todoapp from "../assets/todoapp.png";
 import movieapp from "../assets/bmdb.png";
+import proshop from "../assets/proshop.png";
 
 const projects = [
+  {
+    name: "Proshop",
+    description:
+      "A E-commerce app, with admin/user authorization, handling api with rtk query",
+    tech: [
+      "MERN",
+      "React",
+      "Redux Toolkit",
+      "Rtk Query",
+      "Bootstrap"
+    ],
+    link: "https://pro-shop-grgj.onrender.com/",
+    image: proshop,
+  },
   {
     name: "Chat-app",
     description:

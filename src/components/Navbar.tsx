@@ -16,7 +16,7 @@ import {
   useMediaQuery,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import resume from "../assets/BharathS.CV.pdf";
+import resume from "../assets/Bharath.S.CV.pdf";
 import profileLogo from "../assets/profile-logo.png";
 
 const navLinks = [
